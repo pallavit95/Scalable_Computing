@@ -1,0 +1,20 @@
+
+
+Repeat for all lengths
+{
+
+Generate the data:
+(Generate images with a space, but the program omits the space; Size is length, but more realistic to target data)
+python generate.py --width 128 --height 64 --length 2 --symbols symbols_gen.txt --count 200 --output-dir train
+python generate.py --width 128 --height 64 --length 2 --symbols symbols_gen.txt --count 200 --output-dir validation
+
+
+Train the model:
+(Train the model on above images, but without a space or padded char as that decreases accuracy)
+python train.py --width 128 --height 64 --length 2 --symbols symbols.txt --batch-size 100 --epochs 8 --output-model test.h5 --train-dataset train --validate-dataset validation
+
+Classify and decode:
+(Decode)
+python classify.py --model-name test.h5 --captcha-dir <size_2_segregations> --output <path_to_dir_>/output_test.csv --symbols symbols.txt
+
+}

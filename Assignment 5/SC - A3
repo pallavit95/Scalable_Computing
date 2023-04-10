@@ -1,0 +1,39 @@
+SC - A3
+------------------------------------------
+1.Information Theory
+1.1 Shanons Breakthrough
+1.2 Coding
+1.3 Entropy
+1.4 Divergence and redundancy 
+1.5 Semantics and Information Theory
+1.6 Mutual Information
+1.7 On definitions of entropy, divergence and mutual information
+1.8 Data Reduction / Side Information
+1.9 Mixing
+1.10 Compression of correlated data
+------------------------------------------
+2. Continous Data
+2.1 Rate Distortion Theory
+2.2 The qubit
+2.3 Entanglement
+------------------------------------------
+3. Duality between Truth and Description
+3.1 Intro to game theory
+3.2 Games of Information
+3.3 The Maximum Entropy Principle
+3.4 Universal Coding
+3.5 Other games of Information
+3.6 Maximum entropy in Physics
+3.7 Gibbs conditioning principle
+3.8 Application in statistics
+3.9. Law of large numbers and central limit theorems.
+------------------------------------------
+4.1. Channel coding.
+4.2. Capacity.
+4.3. Transmission of quantum information.
+------------------------------------------
+5. Multi-user communication
+5.1. The multiple access channel.
+5.2. Network coding
+5.3. Broadcast problems.
+5.4. Cryptography.
